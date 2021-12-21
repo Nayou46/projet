@@ -1,0 +1,279 @@
+/* Header dimention*/
+*{
+  box-sizing: border-box;
+}
+
+#Menu
+{
+    background-color: black;
+    padding-top: 30px;
+    margin-top: -8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 43px;
+    
+}
+
+/*Creation list and accesories*/
+
+#List ul
+{
+    padding: 0;
+    margin: 0;
+    line-height: 46px;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+#List li
+{   
+    text-transform: capitalize;    
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    position: relative;
+    background-color: none;
+    border-radius: 3px;
+
+}
+
+#List ul li a
+{
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 160px;
+    height: 40px;
+    border:  10px transparent black;  
+    
+    
+}
+
+#List 
+{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 30px; 
+
+}
+
+#List ul li a:hover
+{
+    color: goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#List ul li:hover ul
+{
+    visibility: visible;
+}
+#List ul ul
+{   
+    
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+
+#center
+{
+    text-align: justify;
+    margin-left: 320px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: slategrey ;
+}
+.proo img
+{
+    float: right;
+    clear: right;
+    margin-left: 10px;
+    padding: 2px;
+    margin-top: 115px;
+}
+
+.proo h2
+{
+  margin-left: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+
+}
+
+.proo 
+{
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: white;
+
+}
+.proo p
+{
+    color: white;
+    margin-left: 30px;
+    margin-top: 7px;
+    text-align: justify;
+    letter-spacing: -0.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+center h1
+{
+  margin-top: 60px;
+  font-size: 25px;
+  color: white;
+  text-decoration: white;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Pro
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Pro div{
+  width: 30%;
+  margin: 20px;
+}
+
+.Pro img
+{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  transition: all ease-in-out .4s;
+  border-radius: 25px;
+}
+
+.Pro img:hover
+{
+  transform: rotate(360deg);
+  transition: all ease-in-out .4s;
+}
+
+.Pro h3 
+{
+  color: white;
+}
+
+.Pro h4
+{
+  color: white;
+  margin-top: -15px;
+  text-transform: capitalize;
+}
+
+.Pro p
+{
+  margin-left: 35px;
+  margin-right: 35px;
+  letter-spacing: -0.5px;
+  text-align: justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+/*Footer and container*/
+h2 
+{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  padding-top: 32px;
+  margin-left: 15px;
+  padding-bottom: 0px;
+}
+
+
+
+.footer ul li a
+{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.footer
+{
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+#foot1
+{
+  background-color: black;
+
+}
+
+#foot2
+{
+  margin-top: -174px; 
+  margin-left: 300px;
+  background-color: black;
+}
+
+#foot3
+{
+  margin-top: -174px;
+  margin-left: 560px;
+  background-color: black;
+}
+
+#foot4
+{
+  margin-top: -174px;
+  margin-left: 970px;
+  background-color: black;
+}
+.footer
+{
+  display: inline;
+}
+#copi 
+{
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+#foot3 p
+{
+margin-left: -2px;
+margin-bottom: -0.2px;
+}
+
+#foot3 p a:hover
+{
+  color: goldenrod;
+}
+
+#foot2 a:hover
+{
+  color: goldenrod;
+}
+
+#foot1 a:hover
+{
+  color: goldenrod;
+}

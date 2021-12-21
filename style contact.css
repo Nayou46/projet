@@ -1,0 +1,326 @@
+/* Header dimention*/
+#Menu
+{
+    background-color: black;
+    padding-top: 30px;
+    margin-top: -8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 43px;
+    
+}
+
+/*Creation list and accesories*/
+
+#List ul
+{
+    padding: 0;
+    margin: 0;
+    line-height: 46px;
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+#List li
+{   
+    text-transform: capitalize;    
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    position: relative;
+    background-color: none;
+    border-radius: 3px;
+
+}
+
+#List ul li a
+{
+    color: white;
+    display: block;
+    text-decoration: none;
+    width: 160px;
+    height: 40px;
+    border:  10px transparent black;  
+    
+    
+}
+
+#List 
+{
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 30px; 
+
+}
+
+#List ul li a:hover
+{
+    color: goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#List ul li:hover ul
+{
+    visibility: visible;
+}
+#List ul ul
+{   
+    
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+
+#center
+{
+    text-align: justify;
+    margin-left: 320px;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+h1 p
+{
+    color: white;
+    padding-top: -30px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#img
+{
+    width: 100%;
+    height: 100%;
+    margin-top: -55px;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.wrapper
+{
+    position: absolute;
+    bottom: -40%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.contact-form
+{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.13);
+}
+
+.input-fields
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg
+{
+    width: 50%;
+}
+
+.input-fields .input,
+.msg textarea
+{
+    margin: 15px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+textarea
+{   
+    color: white;
+    background: rgba(0, 0, 0,0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.msg textarea
+{
+    height: 212px;
+}
+
+::-webkit-input-placeholder
+{
+    color: #c5ecfd;    
+}
+
+::-moz-input-placeholder
+{
+    color: #c5ecfd;    
+}
+
+::-ms-input-placeholder
+{
+    color: #c5ecfd;    
+}
+
+
+.btn
+{
+    margin-top: 20px;
+    background: #39b7dd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.smg a
+{
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px)
+{
+    .contact-form
+    {
+        flex-direction: column;
+    }
+    .msg textarea
+    {
+        height: 80px;
+    }
+    .input-fields,
+    .msg
+    {
+        width: 40%;
+    }
+    
+}
+
+
+/*Footer and container*/
+h2 
+{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  padding-top: 74px;
+  margin-left: 0px;
+  margin-top: -15px;
+  padding-bottom: -30px;
+  background-color: black;
+}
+
+
+
+.footer ul li a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+  
+}
+
+.footer
+{
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+#foot1
+{
+    padding-left: 20px;
+    background-color: black;
+
+}
+
+#foot2
+{
+  margin-top: -174px; 
+  margin-left: 310px;
+  background-color: black;
+}
+
+#foot3
+{
+  margin-top: -174px;
+  margin-left: 560px;
+  background-color: black;
+}
+
+#foot4
+{
+  margin-top: -174px;
+  margin-left: 970px;
+  background-color: black;
+}
+.footer
+{
+  display: inline;
+}
+#copi 
+{
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+#foot3 p
+{
+margin-left: -2px;
+margin-bottom: -0.2px;
+}
+
+#foot3 p a:hover
+{
+  color: goldenrod;
+}
+
+#foot2 a:hover
+{
+  color: goldenrod;
+}
+
+#foot1 a:hover
+{
+  color: goldenrod;
+}
+
+
+
+
+
+
